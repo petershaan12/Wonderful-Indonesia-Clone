@@ -1,3 +1,3 @@
 # petershaan.github.io
-ini adalah Folder Pemograman Web UNAI Semester 3, yang diajarkan oleh Sir Andrew
+ini adalah Repo Pemograman Web 1 UNAI, yang diajarkan oleh Sir Andrew
 - Mencoba Hosting Menggunakan GitHub
