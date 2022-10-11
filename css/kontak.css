@@ -1,0 +1,97 @@
+header {
+    height: 43vh;
+    width: 100%;
+    top: -50px;
+    position: relative;
+    z-index: -1;
+    background-image: url(../image/kontak.jpg);
+    background-repeat: no-repeat;
+    background-position: 80% 75%;
+    filter: brightness(0.9);
+    background-size: cover;
+}
+
+.burger {
+    margin-top: -80px;
+}
+
+.burger a {
+    text-decoration: none;
+    color: black;
+}
+
+.burger a:hover {
+    text-decoration: underline;
+}
+
+.kontak h1 {
+    font-size: 80px;
+    color: black;
+}
+
+.kontak form {
+    width: 100%;
+    margin-top: -20px;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #091426;
+}
+
+fieldset.kedua input {
+    width: 15px !important;
+    margin-top: -8px;
+    padding-left: 20px;
+    /* float: left; */
+}
+
+fieldset.kedua label {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.kontak input,
+textarea,
+select {
+    margin: 20px 0 0 0;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 2em;
+}
+
+.kontak input,
+textarea {
+    background-color: #f2f1f9;
+    border: 1px solid #f2f1f9;
+    color: black;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+.kontak input[type="submit"] {
+    display: block;
+    cursor: pointer;
+    width: 60%;
+    height: 200px;
+    margin: 1em auto;
+    height: 3em;
+    font-size: 1.1rem;
+    background-color: #091426;
+    border-color: white;
+    min-width: 300px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.kontak input[type="file"] {
+    padding: 1px 2px;
+}
