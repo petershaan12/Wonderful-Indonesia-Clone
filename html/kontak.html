@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak |Wonderful Indonesia</title>
+    <link rel="icon" href="../img/Favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CSS SENDIRI -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-scroll navbar-dark pt-5">
+        <div class="container container-fluid">
+            <a href="../index.html" class="logo mt-2"><img src="../img/logo.png" alt="logo_wonderful_indonesia" width="116px"></a>
+            <button id="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="https://fti.unai.edu">FTI UNAI</a>
+                    <a class="nav-link active" href="https://unai.edu">Website UNAI</a>
+                    <a class="nav-link active" href="biodata.html">Biodata Saya</a>
+                    <a class="nav-link active" href="kontak.html">Kontak Kami</a>
+                    <a class="nav-link active" href="html/bebas.html">Kesempatan Bekerja Sama</a>
+                    <a class="nav-link active hide-mobile" href="#">ID - ID</a>
+                    <a class="nav-link active hide-mobile" href="#"><img src="../img/icon/search.svg" alt="lambang_search" class="cari"></a>
+                    <a class="nav-link active hide-mobile" href="#"><img src="../img/icon/day.svg" alt="tombol_day_night"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- AKHIR NAVBAR -->
+
+    <!-- CARAOUSEL -->
+    <div class="caraousel_html kontak">
+        <div class="carousel-item active">
+            <picture>
+                <source srcset="../img/3_kontak_folder/kontak.jpg" media="(min-width: 768px)">
+                <img src="../img/3_kontak_folder/kontak_mobile.jpg" class="d-block w-100" id="mobile" alt="...">
+            </picture>
+        </div>
+    </div>
+    <!-- AKHIR CARAOUSEL -->
+
+    <!-- KONTAK KAMI -->
+    <section class="html p-md-5 p-3" id="kontak">
+        <div class="container">
+            <div class="burger pt-2">
+                <a href="../index.html" class="text-decoration-none link-dark">Home</a>&nbsp ❯ &nbsp
+                <a href="" class="text-decoration-none link-dark">Kontak Kami</a>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="fw-bold display-2">Kontak Kami</h1>
+                    <p class="mt-2">Jika ada pertanyaan ataupun ingin meminta bantuan kepada kami silahkan mengisi form dibawah ini, kami sangat senang bisa membantu anda </p>
+                </div>
+            </div>
+            <form>
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row">
+                    <div class="col">
+                        <div class="form-outline">
+                            <input type="text" id="form6Example1" class="form-control py-2" required placeholder="First Name" />
+                            <label class="form-label" for="form6Example1"></label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-outline">
+                            <input type="text" id="form6Example2" class="form-control py-2" required placeholder="Last name" />
+                            <label class="form-label" for="form6Example2"></label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Email input -->
+                <div class="form-outline">
+                    <input type="email" id="form6Example5" class="form-control" required placeholder="Your Email" />
+                    <label class="form-label" for="form6Example5"></label>
+                </div>
+
+                <!-- Username input -->
+                <div class="form-outline">
+                    <input type="text" id="form6Example3" class="form-control py-2" required placeholder="Your Password" />
+                    <label class="form-label" for="form6Example3"></label>
+                </div>
+
+                <!-- Passowrd input -->
+                <div class="form-outline">
+                    <input id="password" name="password" type="password" class="form-control py-2" pattern="[a-z0-5]{8,}" required placeholder="Masukkan Password Anda" />
+                    <label class="form-label" for="form6Example4"></label>
+                </div>
+
+                <!-- GENDER -->
+                <div class="form-outline">
+                    <label for="">Gender</label>
+                    <div class="form-check mt-2">
+
+                        <label class="form-check-label" for="man">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            Man
+                        </label>
+                    </div>
+                    <div class="form-check mt-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="woman">
+                            Woman
+                        </label>
+                    </div>
+                </div>
+
+                <!-- HOBI -->
+                <div class="form-outline mb-4">
+                    <label for="" class="d-flex mt-4">Hobi</label>
+                    <label for="Basket" class="d-flex mt-3"><input id="Basket" type="checkbox" name="account-type" class="inline"/> &nbsp Basket &nbsp</label>
+                    <label for="Sepak_Bola" class="d-flex mt-3"><input id="Sepak_Bola" type="checkbox" name="account-type" class="inline" /> &nbsp Sepak Bola &nbsp</label>
+                    <label for="Bulu_Tangkis" class="d-flex mt-3"><input id="Bulu_Tangkis" type="checkbox" name="account-type" class="inline" /> &nbsp Bulu Tangkis &nbsp</label>
+                    <label for="renang" class="d-flex mt-3"><input id="renang" type="checkbox" name="account-type" class="inline" /> &nbsp Renang &nbsp</label>
+                    </label>
+                </div>
+
+                <!-- Umur input -->
+                <div class="form-outline ">
+                    <input type="number" id="form6Example5" name="age" min="13" max="120" class="form-control" required placeholder="Age" />
+                    <label class="form-label" for="form6Example4"></label>
+                </div>
+
+                <!-- AGAMA -->
+                <select id="referrer" class="form-select" name="referrer">
+                    <option value="">(pilih Agama)</option>
+                    <option value="1">Kristen</option>
+                    <option value="2">Islam</option>
+                    <option value="3">Budha</option>
+                    <option value="4">Hindu</option>
+                    <option value="5">Lainnya</option>
+                </select>
+
+                <!-- ALAMAT -->
+                <div class="form-floating mt-3">
+                    <textarea class="form-control" style="height: 200px" placeholder="Your Address"></textarea>
+                    <label for="floatingTextarea2">Your Address</label>
+                </div>
+
+
+                <!-- Checkbox -->
+                <div class="form-check d-flex justify-content-center mt-4">
+                    <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
+                    <label class="form-check-label" for="form6Example8"> I accept the <a href="https://www.indonesia.travel/id/id/term-condition" class="text-decoration-none link-dark">terms and conditions</a></label>
+                </div>
+
+
+
+                <!-- Submit button -->
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-block mb-4 text-white w-50 mt-3" style=" background-color: #091426; ">Send</button>
+                </div>
+            </form>
+    </section>
+
+
+    <div id="footer" class="mt-5" style="  background-color: #091426;">
+        <div class="bagian1 p-5 container">
+            <div class="row content">
+                <div class=" col-lg-4 col-sm-12 text-md-left text-center">
+                    <img src="../img/logo.png " height="70px " alt="logo_wonderful_indonesia">
+                    <div class="d-flex justify-content-center gap-3 mt-4">
+                        <a target="_blank " class="feb" href="https://www.facebook.com/pesona.indonesia ">
+                            <i class="fa fa-facebook "></i>
+                        </a>
+                        <a target="_blank " href="https://twitter.com/pesonaindonesia ">
+                            <i class="fa fa-twitter "></i>
+                        </a>
+                        <a target="_blank " href="https://www.instagram.com/pesona.indonesia/ ">
+                            <i class="fa fa-instagram "></i>
+                        </a>
+                        <a target="_blank " href="https://www.youtube.com/c/PesonaIndonesiaofficial ">
+                            <i class="fa fa-youtube "></i>
+                        </a>
+                        <div class="tiktok">
+                            <a target="_blank " href="https://tiktok.com/@pesonaindonesia ">
+                                <img src="../img/icon/tiktok.svg " alt=" " width="18px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-12 text-center">
+                    <div class="row mt-md-3 my-5">
+                        <div class="col-lg-6 col-12 ">
+                            <h4 class=" text-center text-lg-end mb-lg-0" style="color: #efef60 ;">Kunjungi situs lainnya</h4>
+                        </div>
+                        <div class="col-lg-6 col-12 position-relative mt-md-0 mt-4">
+                            <select class="form-select w-100 rounded">
+                                <option value="">Pilih Situs</option>
+                                <option value="https://www.indonesia.travel/yachts/en/yachts">Yacht Indonesia</option>
+                                <option value="https://www.indonesia.travel/cruise/en/home">Cruise</option>
+                                <option value="https://www.indonesia.travel/event/id/home">Event</option>
+                                <option value="https://www.indonesia.travel/desawisata/id/home">Desa Wisata</option>
+                                <option value="https://www.indonesia.travel/creative/id/home">Creative</option>
+                            </select>
+                            <div class="form-select-2">&#10095;</div>
+                        </div>
+                    </div>
+                    <div class="ketentuan text-center text-lg-end mt-5" style="font-size: 14px;">
+                        <a class="text-decoration-none link-light " href="https://www.indonesia.travel/id/id/cookie-policy ">Kebijakan Cookie  &nbsp &nbsp | </a>
+                        <a class="text-decoration-none link-light " href="https://www.indonesia.travel/id/id/privacy-policy ">Kebijakan Privasi  &nbsp &nbsp|</a>
+                        <a class="text-decoration-none link-light " href="https://www.indonesia.travel/id/id/term-condition ">Syarat dan Ketentuan &nbsp |</a>
+                        <a class="text-decoration-none link-light " href="https://www.indonesia.travel/id/id/contact ">Hubungi Kami</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="garis_footer"></div>
+        <div class="bagian2 text-center link-light py-4 container" style="font-size: 12px;">
+            <p>Situs ini merupakan situs clone dari situs resmi Kementerian Pariwisata dan Ekonomi Kreatif Republik Indonesia. Semua isi yang tercantum di dalam situs ini bertujuan untuk hanya Projek Mid semester dari Universitas Advent Indonesia tahun ajaran
+                2022/2023, website ini dekelola dan dibuat oleh
+                <a href="biodata.html" class="nama_peter link-light">peter shaan.</a></p>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script>
+        var nav = document.querySelector("nav");
+        window.addEventListener("scroll", function() {
+            nav.classList.toggle("sticky", window.scrollY > 0);
+        })
+        var button = document.getElementById("button")
+        button.addEventListener("click", function() {
+            if (window.scrollY != 0) {
+                nav.classList.toggle("nav-click-scroll");
+            } else {
+                nav.classList.toggle("nav-click");
+            }
+        })
+    </script>
+</body>
+
+</html>
