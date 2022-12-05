@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="46.726" viewBox="0 0 30 46.726">
+  <g id="Group_3602" data-name="Group 3602" transform="translate(1 1.007)">
+    <path id="Rectangle_2815" data-name="Rectangle 2815" d="M0,0H27a1,1,0,0,1,1,1V36a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V0A0,0,0,0,1,0,0Z" transform="translate(0 7.719)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_2879" data-name="Path 2879" d="M59,58V56.781a1,1,0,0,1,.757-.97l22-5.5a1,1,0,0,1,1.243.97V56" transform="translate(-59 -50.281)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_18" data-name="Line 18" x2="14" transform="translate(7 35.719)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <circle id="Ellipse_436" data-name="Ellipse 436" cx="8" cy="8" r="8" transform="translate(6 13.719)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <ellipse id="Ellipse_437" data-name="Ellipse 437" cx="3" cy="8" rx="3" ry="8" transform="translate(11 13.719)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_19" data-name="Line 19" x2="16" transform="translate(6 21.719)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>
