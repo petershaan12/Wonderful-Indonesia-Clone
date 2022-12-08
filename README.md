@@ -1,7 +1,7 @@
 # Wonderful Indonesia Website
 This is a Web Programming Final Project Website where this website is a web clone from Wonderful Indonesia 
 taught by sir Andrew Pakpahan as Lecture in Universitas Advent Indonesia
-*responsive website*
+
 
 uploaded to https://petershaan.site/
 
@@ -9,6 +9,9 @@ uploaded to https://petershaan.site/
 - Bootstrap 5
 - Javascript
 - Vanilla CSS
+
+#Feature
+- *responsive website*
 
 # HomePage
 ![Screenshot_20221208_095318](https://user-images.githubusercontent.com/74284209/206344653-9b17c4ce-bb6d-412f-8eef-58130118f23d.png)
