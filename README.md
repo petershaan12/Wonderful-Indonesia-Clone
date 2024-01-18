@@ -3,7 +3,7 @@ This is a Web Programming Final Project Website where this website is a web clon
 taught by sir Andrew Pakpahan as Lecture in Universitas Advent Indonesia
 
 
-uploaded to https://petershaan.site/
+Publish on https://petershaan12.github.io/Wonderful-Indonesia-Clone/
 
 # Built On
 - Bootstrap 5
